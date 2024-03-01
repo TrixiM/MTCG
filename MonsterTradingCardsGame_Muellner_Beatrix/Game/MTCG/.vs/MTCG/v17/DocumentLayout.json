@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB67F16-0C18-4C75-8616-A5F8EDC9B11B}|..\\MTCG_Testing\\MTCG_Testing.csproj|c:\\users\\bmuel\\desktop\\monstertradingcardsgame_muellner_beatrix\\game\\mtcg_testing\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|c:\\users\\bmuel\\desktop\\monstertradingcardsgame_muellner_beatrix\\game\\mtcg\\database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|solutionrelative:database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|c:\\users\\bmuel\\desktop\\monstertradingcardsgame_muellner_beatrix\\game\\mtcg\\server\\responses\\sessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|solutionrelative:server\\responses\\sessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|c:\\users\\bmuel\\desktop\\monstertradingcardsgame_muellner_beatrix\\game\\mtcg\\server\\httpresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|solutionrelative:server\\httpresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|c:\\users\\bmuel\\desktop\\monstertradingcardsgame_muellner_beatrix\\game\\mtcg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|c:\\users\\bmuel\\desktop\\monstertradingcardsgame_muellner_beatrix\\game\\mtcg\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|solutionrelative:server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|c:\\users\\bmuel\\desktop\\monstertradingcardsgame_muellner_beatrix\\game\\mtcg\\battlelogic\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|solutionrelative:battlelogic\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|c:\\users\\bmuel\\desktop\\monstertradingcardsgame_muellner_beatrix\\game\\mtcg\\server\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430C4728-B42B-41B2-AB8C-256D801BAFC6}|MTCG.csproj|solutionrelative:server\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG_Testing\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\MTCG_Testing\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG_Testing\\UnitTest1.cs",
+              "RelativeToolTip": "..\\MTCG_Testing\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:36:34.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SessionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Server\\Responses\\SessionResponse.cs",
+              "RelativeDocumentMoniker": "Server\\Responses\\SessionResponse.cs",
+              "ToolTip": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Server\\Responses\\SessionResponse.cs",
+              "RelativeToolTip": "Server\\Responses\\SessionResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T20:43:34.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Database\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "Database\\DatabaseManager.cs",
+              "ToolTip": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Database\\DatabaseManager.cs",
+              "RelativeToolTip": "Database\\DatabaseManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T20:37:57.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T20:35:14.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HTTPResponse.cs",
+              "DocumentMoniker": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Server\\HTTPResponse.cs",
+              "RelativeDocumentMoniker": "Server\\HTTPResponse.cs",
+              "ToolTip": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Server\\HTTPResponse.cs",
+              "RelativeToolTip": "Server\\HTTPResponse.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T20:27:55.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\BattleLogic\\BattleManager.cs",
+              "RelativeDocumentMoniker": "BattleLogic\\BattleManager.cs",
+              "ToolTip": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\BattleLogic\\BattleManager.cs",
+              "RelativeToolTip": "BattleLogic\\BattleManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T19:38:17.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Server\\Server.cs",
+              "RelativeDocumentMoniker": "Server\\Server.cs",
+              "ToolTip": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Server\\Server.cs",
+              "RelativeToolTip": "Server\\Server.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T19:37:30.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Server\\Responses\\UserResponse.cs",
+              "RelativeDocumentMoniker": "Server\\Responses\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\bmuel\\Desktop\\MonsterTradingCardsGame_Muellner_Beatrix\\Game\\MTCG\\Server\\Responses\\UserResponse.cs",
+              "RelativeToolTip": "Server\\Responses\\UserResponse.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAhwBAAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T19:33:07.914Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

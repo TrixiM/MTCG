@@ -1,0 +1,81 @@
+GIT: https://github.com/TrixiM/MTCG.git
+
+
+Entwicklungsdokumentation:
+
+Ich habe einen TCP-Server konzipiert, der HTTP-Anfragen empfängt, diese asynchron verarbeitet und entsprechende Antworten zurücksendet.
+In meinem Ansatz dekomponiere ich eingehende HTTP-Requests, ordne sie spezifischen Endpunkten zu und führe basierend auf dem Request-Typ
+(GET, POST, PUT, DELETE) und dem Zielendpunkt die notwendigen Aktionen durch.
+In meiner Implementierung lege ich großen Wert auf eine klare objektorientierte Struktur. Die "HTTPRequest"-Klasse ist dabei für die
+Aufnahme und Speicherung aller relevanten Informationen eines eingehenden Requests zuständig, einschließlich der Header-Daten und des
+Inhalts. Die abstrakte Klasse "HTTPResponse" bildet das Gerüst für die Erstellung der Antworten.
+Sie enthält Methoden zum Senden der Antwort an den Client, wobei ich mich darauf konzentriere, den Header und den Body der Antwort präzise
+zu formulieren.
+Zur Verwaltung der verschiedenen Antworttypen auf die Anfragen führe ich eine differenzierte Behandlung der Endpunkte durch.
+Dies erreiche ich, indem ich auf der Grundlage des angefragten Endpunkts und der HTTP-Methode spezifische Subklassen von
+"HttpResponse" instanziere. Diese Subklassen sind für die Bearbeitung spezifischer Anforderungen zuständig, wie beispielsweise Nutzerdaten,
+Session-Informationen oder Spielkarten-Datenbankoperationen.
+Für den asynchronen Betrieb meines Servers nutze ich eine Hauptloop, die auf eingehende Verbindungen wartet und für jede neue Verbindung
+einen separaten Thread startet. Innerhalb dieses Threads wird der Request gelesen, verarbeitet und schließlich eine Antwort generiert und
+gesendet. Dies ermöglicht es meinem Server, gleichzeitig mehrere Anfragen zu bearbeiten, ohne die Verarbeitung zu blockieren.
+Die Datenbankinteraktionen sind sorgfältig von der Hauptlogik getrennt und in eigenen Klassen gekapselt. Dies erleichtert die Wartung des
+Codes und die Wiederverwendbarkeit der Datenbankfunktionalitäten. 
+Für die Qualitätssicherung und um sicherzustellen, dass mein Server wie erwartet funktioniert, setze ich auf Unit-Tests, die ich in einem
+separaten NUnit-Projekt organisiere. Dies ermöglicht mir, verschiedene Komponenten meines Servers isoliert zu testen und sicherzustellen,
+dass sie korrekt funktionieren.
+
+
+
+Unittest-Beschreibung:
+
+Die Unit-Tests für die Battle_Functions-Klasse überprüfen die Kampflogik des Spiels, einschließlich der Durchführung von Kämpfen,
+Kartenauswahl, Aktualisierung von Spielerbewertungen und das Auftreten zufälliger Effekte, um sicherzustellen, dass die
+Spielmechaniken korrekt funktionieren und implementiert sind.
+
+
+
+Unique Funktion:
+
+Während des Kampfes besteht in jeder Runde eine Chance, dass eines von zwei Ereignissen eintrit:
+1. Verleiht einer zufällig ausgewählten Karte zusätzlichen Schaden von 5 Punkten,
+2. Das Element einer zufällig ausgewählten Karte eines zufälligen Spielers ändert.
+
+
+
+optionale Funktionen:
+
+Elo-Berechnung
+Einführung von 2 zusätzlichen Elementen (Earth, Air)
+Darstellung der Gewinn-Verlust-Ratio in Statistiken und auf dem Scoreboard
+
+
+
+Erfahrungen:
+
+- Aufbau eines Servers von Beginn an
+- Durchführung von Datenbankoperationen in C#
+- Anwendung von Unit-Tests in einem eigenständigen Projekt
+- Einsatz asynchroner Programmierung mit async und await
+- Vertiefung für Client-Server-Architekturen
+- Git verwenden
+
+
+Erkenntnisse:
+
+- Das Projekt beim nächsten mal besser durchplanen
+- Früher starten und Zeit besser einteilen
+- Projekt in kleinere Programmiereinheiten zerteilen
+  und nicht alles auf einmal versuchen zu machen
+
+
+
+verbrauchte Zeit:
+
+Server 			  	-> 10h
+Responses		  	-> 40h
+BattleLogic		  	-> 15h
+Unique Funktion		  	->  3h
+Optional Funktion 	  	->  8h
+UnitTests		  	->  8h
+Datenbank		  	-> 14h
+Testen und Fehler beheben 	->  6h 
